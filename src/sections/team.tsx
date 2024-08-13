@@ -36,12 +36,12 @@ export function Team() {
                   alt={`Team Member ${member.name}`}
                   className="w-80 h-auto rounded-sm"
                 />
-                <div
+                <a href={`${member.local === 'Alameda' ? 'https://sites.appbarber.com.br/fellasbarbersho-auei' : 'https://sites.appbarber.com.br/fellasbarberpre-81lr'}`} target="_blank" rel="noreferrer"
                   className={`cursor-pointer absolute bottom-0 left-0 right-0 bg-red-600 bg-opacity-70 text-white text-center p-2 transition-opacity duration-300 rounded-b-md ${isHovered === member.id ? "opacity-100" : "opacity-0"}`}
                 >
                   {content.bookwith}<br />
                   {member.name}
-                </div>
+                </a>
               </div>
               <h1 className="text-white text-lg mt-2 font-Hilborn">{member.name}</h1>
               <p className="text-white text-sm">{member.role}</p>

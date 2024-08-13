@@ -22,9 +22,9 @@ export function Contacts() {
                 <p className="flex gap-1 items-center"><FaPhoneVolume className="size-4 text-red-600" />215 860 238</p>
                 <p className="flex gap-1 items-center"><FaWhatsapp className="size-4 text-green-600" />215 860 238</p>
                 <div className="hover:scale-105">
-                  <button className='animatecss animatecss-jackInTheBox shadow-lg shadow-red-600 p-2 text-white bg-red-600 rounded-none hover:bg-red-500 flex gap-2 items-center justify-center' onClick={() => window.location.reload()}>
+                  <a href="https://sites.appbarber.com.br/fellasbarbersho-auei" target="_blank" className='animatecss animatecss-jackInTheBox shadow-lg shadow-red-600 p-2 text-white bg-red-600 rounded-none hover:bg-red-500 flex gap-2 items-center justify-center' onClick={() => window.location.reload()}>
                     AGENDAR AGORA <CalendarClockIcon className='lg:size-5 size-10' />
-                  </button>
+                  </a>
                 </div>
               </div>
               <div className="flex flex-col gap-1">
@@ -34,9 +34,9 @@ export function Contacts() {
                 <p className="flex gap-1 items-center"><FaPhoneVolume className="size-4 text-red-600" />215 904 241</p>
                 <p className="flex gap-1 items-center"><FaWhatsapp className="size-4 text-green-600" />910 452 767</p>
                 <div className="hover:scale-105">
-                  <button className='animatecss animatecss-jackInTheBox shadow-lg shadow-red-600 p-2 text-white bg-red-600 rounded-none hover:bg-red-500 flex gap-2 items-center justify-center' onClick={() => window.location.reload()}>
+                  <a href="https://sites.appbarber.com.br/fellasbarberpre-81lr" target="_blank" className='animatecss animatecss-jackInTheBox shadow-lg shadow-red-600 p-2 text-white bg-red-600 rounded-none hover:bg-red-500 flex gap-2 items-center justify-center' onClick={() => window.location.reload()}>
                     AGENDAR AGORA <CalendarClockIcon className='lg:size-5 size-10' />
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
